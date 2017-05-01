@@ -1,6 +1,6 @@
 ## Welcome to WeiDi’s GitHub Pages
 
-About me
+## About me
 
 Name：WeiDi
 
