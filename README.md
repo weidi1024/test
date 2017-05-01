@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to WeiDi’s GitHub Pages
+
+#About me
+Name：魏迪
+Location：Xi’an China
+Occupation：Student
+Emai：diweichina@qq.com
 
 You can use the [editor on GitHub](https://github.com/weidi1024/test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
