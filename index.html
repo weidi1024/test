@@ -3,31 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <title>Test20170514</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style type="text/css">
+        p1{
+            color: #101bf9;
+
+        }
+    </style>
 </head>
-<body bgcolor="#98fb98">
-
-    <h1 align="center">第一段</h1>
-      <h2> 第一节</h2>
-        <p2>第一节内容</p2>
+<body bgcolor="#e5fff3">
 
 
+    <h1><a name="ch1">1.开发环境</a><br/></h1>
+    <p1>主要内容:intelij IDEA</p1><br/>
 
-        <a href="http://www.baidu.com" target="_blank">百度</a>
-        这是百度网址<br/>
+    <h1>2.基础简介</h1>
+    <p1>主要内容: 基础标签:head body ,标题:h1,段落:p,链接:a,图像:img</p1><br/><br/>
+      <p2>标签:开始标签'<*>'，结束标签*前面含有/ </p2>
+      <h2>第一节</h2>
+      <p2>第一节内容</p2>
+      <a href="http://www.baidu.com" target="_blank">百度</a>
+      这是百度网址<br/>
+
+    <h1>3.元素、属性、格式化</h1>
+    <p1>主要内容: 元素、属性、格式化</p1><br/><br/>
+      <p2>3.1元素:开始标签到结束标签中的所有代码</p2><br/><br/>
+      <p2>3.2属性:开始标签内部可以编辑属性,为元素提供更多的信息<br/>
+          属性以键/值对形式出现 herf="www.baidu.com"<br/>
+          常用标签color="blue",align:对齐方式<br/>
+      </p2><br/>
+      <p2>3.3格式:对字体的一些格式操作</p2><br/>
         <b>你好 加粗</b><br/>
         <big>你好 变大</big><br/>
         <em>你好 着重</em><br/>
         <i>你好 斜体</i><br/>
         <small>你好 小型字体</small><br/>
         <strong>你好 加重语气</strong><br/>
-        你好<sub>你好 下标</sub><br/>
-        你好<sup>你好 上标</sup><br/>
+        你好<sub> 下标</sub><br/>
+        你好<sup> 上标</sup><br/>
         <ins>你好 插入字</ins><br/>
         <del>你好 删除字</del><br/>
-        <img >
-        学习到3.3小节
 
-    <h2 id="h2ID">   </h2>
+    <h1>4.样式、链接和表格</h1>
+    <p1>主要内容: 样式、链接和表格</p1><br/><br/>
+      <p2>4.1样式  有外部样式,内部样式,内联样式.<br/>
+          外部样式 需要定义一个css文件，例如现在的标题h1（代码段行6）<br/>
+          内部样式 需要在html头文件内添加style，例如我（代码段行7）<br/>
+          <a href="http://www.163.com" style="color: blue;" target="_blank">内联样式 只需要在当前元素标签内添加style即可，例如我</a><br/>
+      </p2><br/>
+      <p2>4.2链接<br/>链接数据:文本链接,图片链接;<br/>链接属性:href指向另一个文档,name指向本文档内部 ;<br/>img属性 alt替换文本属性,width height  <br/> <br/>
+          文字链接 <a href="http://weidi1024.github.io/test/index.html">我的github网站</a><br/>
+          图片链接 <a href="http://weidi1024.github.io/test/index.html">
+                      <img src="images/xiaoming.jpg" width="62.7" height="58.7" alt="xiaoming logo">
+                   </a><br/>
+          <a name="tips">文档内部链接</a><br/>
+          <a href="#tips">跳转到内部链接</a><br/>
+          <a href="#ch1">跳转到第一部分</a><br/>
+      </p2><br/>
+      <p2>4.3表格<br/>常用表格标签:table,caption,th表头,tr行,td单元格,ul列表,li列表项,cellspacing两个单元格间距,cellpadding单元格边距  <br/>
+          <table border="1" bgcolor="aqua" >
+              <caption>学校及位置</caption>
+              <th>学校1</th>
+              <th>学校2</th>
+              <th>学校3</th>
+              <tr>
+                  <td>清华</td>
+                  <td>北大</td>
+                  <td>西电</td>
+              </tr>
+              <tr>
+                  <td>北京</td>
+                  <td></td>
+                  <td>西安</td>
+              </tr>
+          </table>
+
+          <table border="1" cellspacing="1" cellpadding="20" background="images/xiaoming.jpg">
+              <caption>地点及想法</caption>
+              <tr>
+                  <td>
+                      <ul>
+                          <li>我想去</li>
+                          <li>我想看</li>
+                          <li>我想吃</li>
+                      </ul>
+                  </td>
+                  <td>成都</td>
+                  <td>广州</td>
+              </tr>
+          </table>
+      </p2><br/>
+
+    <h1>  </h1>
+    <p1>主要内容:  </p1><br/><br/>
+      <p2>.1 <br/>
+          <br/>
+          <br/>
+          <br/>
+      </p2><br/>
+      <p2>.2  <br/>
+         <br/>
+         <br/>
+         <br/>
+      </p2><br/>
 
 </body>
 </html>
